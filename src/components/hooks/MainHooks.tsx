@@ -1,12 +1,15 @@
 import react from 'react';
+import Contador from './Contador';
+import ContadorConCustomHook from './ContadorConCustomHook';
 
 const MainHooks = () => {
     return (
-        <div>
-            <h1>
-            MainHooks
-            </h1>
-        </div>
+        <>
+            <h1>MainHooks</h1>
+            <hr />
+            <Contador/>
+            <ContadorConCustomHook/>
+        </>
     )
 }
 

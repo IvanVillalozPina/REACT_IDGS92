@@ -14,7 +14,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Home/>} />
       <Route path='typescript' element={<MainTypeScript/>} />
-      <Route path='hooks' element={<MainHooks/>} />
+      <Route path='/hooks' element={<MainHooks/>} />
       <Route path='default' element={<Default/>} />
       <Route path='/*' element={<Navigate to={'default'}/>} />
     </Routes>
