@@ -14,9 +14,29 @@ const EverydayTypes = () => {
     myarr.push(average.toString());
 
     return (
-        <div>
+        <>
+            <h2>EverydayTypes</h2>
+            <table className="table">
+                <tbody>
+                    <tr>
+                        <td>{username} ( {typeof username})</td>
+                    </tr>
+                    <tr>
+                        <td>{age} ( {typeof age})</td>
+                    </tr>
+                    <tr>
+                        <td>{average} ( {typeof average})</td>
+                    </tr>
+                    <tr>
+                        <td>{myarr.join(', ')} ( {typeof myarr}) </td>
+                    </tr>
+                    <tr>
+                        <td>{big1.toString()} ( {typeof big1})</td>
+                    </tr>
+                </tbody>
+            </table>
+        </>
 
-        </div>
     )
 }
 export default EverydayTypes
